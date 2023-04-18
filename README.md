@@ -28,13 +28,19 @@
     python3 -m venv venv
     ```
 
-3. Установите зависимости из файла requirements.txt:
+3. Активируйте виртуальное окружение:
+
+    ```
+    source venv/bin/activate
+    ```
+
+4. Установите зависимости из файла requirements.txt:
 
     ```  
     pip3 install -r requirements.txt  
     ```
 
-4. Через командную строку запустите проект:
+5. Через командную строку запустите проект:
 
     ```
     python3 main.py
