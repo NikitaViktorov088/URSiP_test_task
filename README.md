@@ -37,13 +37,13 @@
 4. Установите зависимости из файла requirements.txt:
 
     ```  
-    pip3 install -r requirements.txt  
+    pip install -r requirements.txt  
     ```
 
 5. Через командную строку запустите проект:
 
     ```
-    python3 main.py
+    python main.py
     ```
 
   ## Автор  
