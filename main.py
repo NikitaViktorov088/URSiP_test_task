@@ -1,6 +1,6 @@
-from core.db import DataBase
-from parser.parser import DataReader, DataProcessor
+from parser.parser import DataProcessor, DataReader
 
+from core.db import DataBase
 
 if __name__ == '__main__':
     db = DataBase()

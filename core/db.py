@@ -19,12 +19,13 @@ class Company(Base):
     Qoil_fore_d1 = Column(Integer)
     Qoil_fore_d2 = Column(Integer)
 
+
 class DataBase:
     def __init__(self):
         self.engine = create_engine('sqlite:///mydatabase.db', echo=True)
         Base.metadata.create_all(self.engine)
         self.con = self.engine.connect()
-    
+
     def save_data(self, df):
         df.to_sql('companies', self.con, if_exists='replace', index=False)
 
